@@ -1,14 +1,28 @@
 # js-zynpass
 ZyNOS Password/Secret generator
 
+# Quick usage
+
+In order to quickly generate secrets:
+```
+git clone https://github.com/kost/js-zynpass
+cd js-zynpass
+npm install
+# edit examples/node-examples/secrets.js with magic, mac and seed
+node examples/node-examples/secrets.js 
+```
+
 # Install
 
+in order to install it:
+```
 npm install zynpass
+```
 
-# Examples
+# Code Examples
 
 ```
-var Zynpass = require('Zynpass');
+var Zynpass = require('zynpass');
 var zynpass = new Zynpass();
 
 var seed = '000000000000'; // seed given with ATSE

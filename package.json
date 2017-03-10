@@ -1,0 +1,33 @@
+{
+  "name": "zynpass",
+  "version": "1.0.0",
+  "description": "Produce secret from the given seed",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "prepublish": "node build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kost/js-zynpass.git"
+  },
+  "keywords": [
+    "zynos",
+    "zynpass",
+    "zyxel"
+  ],
+  "author": "Vlatko Kosturjak <vlatko.kosturjak@gmail.com> (https://github.com/kost)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kost/js-zynpass/issues"
+  },
+  "homepage": "https://github.com/kost/js-zynpass#readme",
+  "devDependencies": {
+    "minify": "0.2.x",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "cuint": "^0.2.2"
+  }
+}
